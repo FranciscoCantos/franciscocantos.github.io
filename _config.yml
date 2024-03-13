@@ -82,9 +82,9 @@ content:
           Storybeat is a content editing app to share on social networks oriented to influencers. I started my path in Storybeat because I was looking for a bigger challenge than the ones already had and the experience has been exciting.
         description: | # this will include new lines to allow paragraphs
             During this time I have performed tasks such as: analysis and development of new features with the product team, testing with XCTests, redesign of screens, queries to REST-APIs with URLSession, purchases and subscriptions in App-Store, translations with Lokalise, uploads to the App-Store, error analysis with Crashlitics, analytics with Firebase, Xcode-Cloud implementation, use the Apple Music api, creation of remote and local notifications, UserDefaults, audio and video editing with AVFundation, ad integration with Google AdMob... 
-All this developing with a Redux architecture (Unidirectional Data Flow) with the ReSwift framework.
-We also use tools like Swiftlint, Periphery, Cocoapods, SPM, Figma, Purchasely, Firebase, Google-SignIn, Kingfisher, Lottie, SwiftGen, Lottie, Google SignIn ...
-The atmosphere with my colleagues is great and very important when you are remote. We have our own Kanban and we get along great with Jira and Github. Also in each release we have to do Quality Assurance to check in our own hands the quality of the development.
+            All this developing with a Redux architecture (Unidirectional Data Flow) with the ReSwift framework.
+            We also use tools like Swiftlint, Periphery, Cocoapods, SPM, Figma, Purchasely, Firebase, Google-SignIn, Kingfisher, Lottie, SwiftGen, Lottie, Google SignIn ...
+            The atmosphere with my colleagues is great and very important when you are remote. We have our own Kanban and we get along great with Jira and Github. Also in each release we have to do Quality Assurance to check in our own hands the quality of the development.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
