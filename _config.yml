@@ -12,108 +12,123 @@ email: FranciscoCantosGutierrez@Gmail.com
 website: FranciscoCantos.Github.io
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
 github_username: FranciscoCantos
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-#instagram_username: jameswgrant
 linkedin_username: fcocantos
-# xing_username: jekyll
-# pinterest_username: jekyll
-#youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
-
-# Additional icon links
-#additional_links:
-#- title: itsgoingto.be
-#  icon: fas fa-globe
-#  url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
 
 # About Section
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, I'm Francisco Cantos (aka Kurro) and also a senior iOS applications developer. I have worked at a number of companies gaining teamwork and multiple skills.
+  Hi, I'm Francisco Cantos and also a senior iOS applications developer. I have worked at a number of companies gaining teamwork and multiple skills.
 
+  I am a very restless person who always likes to learn new things. When I master a subject I like to share it with anyone who wants to learn. At work I am always willing to help my colleagues in everything they need.
+
+  I am passionate about technological advances and I like to try everything. I get informed about these advances in several RSS, social networks and newsletters.
 content:
-#  - title: Projects # Title for the section
-#    layout: list # Type of content section (list/text)
-#    content:
-#      - layout: top-middle
-#        title: Super awesome project
-#        link: github.com/sproogen
-#        # link_text: Project Website
-#        additional_links:
-#          - title:  sproogen/modern-resume-theme
-#            icon: fab fa-github
-#            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-#        quote: >
- #         This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
- #       description: | # this will include new lines to allow paragraphs
- #         I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        border: weak
         title: Storybeat
-        link: storybeat.com
-        # link_text: storybeat.com
+        link: www.storybeat.com
         sub_title: Senior iOS Developer
         caption: February 2022 - Present
         quote: >
-          Storybeat is a content editing app to share on social networks oriented to influencers. I started my path in Storybeat because I was looking for a bigger challenge than the ones already had and the experience has been exciting.
+          Storybeat is a content editing app to share on social networks oriented to influencers.
         description: | # this will include new lines to allow paragraphs
-            During this time I have performed tasks such as: analysis and development of new features with the product team, testing with XCTests, redesign of screens, queries to REST-APIs with URLSession, purchases and subscriptions in App-Store, translations with Lokalise, uploads to the App-Store, error analysis with Crashlitics, analytics with Firebase, Xcode-Cloud implementation, use the Apple Music api, creation of remote and local notifications, UserDefaults, audio and video editing with AVFundation, ad integration with Google AdMob... 
-            All this developing with a Redux architecture (Unidirectional Data Flow) with the ReSwift framework.
-            We also use tools like Swiftlint, Periphery, Cocoapods, SPM, Figma, Purchasely, Firebase, Google-SignIn, Kingfisher, Lottie, SwiftGen, Lottie, Google SignIn ...
-            The atmosphere with my colleagues is great and very important when you are remote. We have our own Kanban and we get along great with Jira and Github. Also in each release we have to do Quality Assurance to check in our own hands the quality of the development.
+          I started my path in Storybeat because I was looking for a bigger challenge than the ones already had and the experience has been exciting.
+
+          During this time I have performed tasks such as analysis and development of new features with the product team, testing with <mark>XCTests</mark>, redesign of screens, queries to <mark>REST-APIs</mark> using <mark>URLSession</mark>, manages purchases and subscriptions in App-Store, translations with <mark>Lokalise</mark>, uploads to the App-Store, make error analysis with <mark>Crashlitics</mark>, check analytics with <mark>Firebase</mark>, <mark>Xcode-Cloud</mark> implementation, use the <mark>AppleMusic</mark> API, deliver remote and local notifications, use of UserDefaults, audio and video editing with <mark>AVFundation</mark>, ads integration with Google <mark>AdMob</mark>... 
+          All this using a Redux architecture (Unidirectional Data Flow) with the <mark>ReSwift</mark> framework. We also use tools like <mark>Swiftlint</mark>, <mark>Periphery</mark>, <mark>Cocoapods</mark>, <mark>SPM</mark>, <mark>Figma</mark>, <mark>Purchasely</mark>, <mark>Firebase</mark>, <mark>Google-SignIn</mark>, <mark>Kingfisher</mark>, <mark>Lottie</mark>, <mark>SwiftGen</mark>, <mark>Lottie</mark>...
+
+          The atmosphere with my teammates is great and this is very important when you are remote. We have our own Kanban and we get along great with <mark>Jira</mark> and <mark>Github</mark>. The review of PRs was extensive among teammates of the same platform and this greatly improved the quality of the code and avoided errors. Also in each release we have to do like Quality Assurance to check in our own hands the quality of the development.
+          Every month we took turns to be in charge of online teambuildings and the organization of retrospective meetings to know the status of the team members and introduce improvements according to the whole team. 
+        
+          We also had the opportunity to contribute to the Roadmap of the app.
+
+      - layout: left
+        border: weak
+        title: Vodafone
+        link: www.vodafone.es
+        sub_title: Senior iOS Developer
+        caption: March 2020 - February 2022
+        quote: >
+          MyVodafone app is designed for Vodafone customers to manage their services more easily and conveniently through their mobile devices.
+        description: | # this will include new lines to allow paragraphs
+          During this stage I was in 2 different companies; in my first stage I was hired through the company Alten and after 9 months I had a change of supplier to Qaracter.
+
+          At Vodafone I started right at the beginning of the pandemic; it was my first contact with 100% remote work. There I was part of the Transactional team where we developed different functionalities to facilitate the process of acquiring discounts by the customer.
+
+          The app is developed in Swift code, with an MVP architecture. For error control and code quality control, unit tests are performed with <mark>XCTest</mark>. We use tools such as <mark>SwiftLint</mark>, <mark>Kiuwan</mark> and <mark>SonarQube</mark> to increase code quality.
+          Task management was done with Jira using Scrum methodology in 3-week sprints. Between the different teams we reviewed each other's PRs to test that everything was OK.
+
+      - layout: left
+        border: weak
+        title: INNOCV Solutions
+        link: www.innocv.com
+        sub_title: Mid iOS Developer
+        caption: April 2019 - February 2022
+        quote: >
+          At INNOCV I had the opportunity to participate in the development of the EVOBank app for its users where they can manage the services offered by the bank.
+        description: | # this will include new lines to allow paragraphs
+          The development of this app I used reactive programming using the <mark>RXSwift</mark> framework and a <mark>VIPER</mark> architecture. Unit tests were performed with <mark>XCTEst</mark> and also we used <mark>SonarQube</mark> and <mark>Swiftlint</mark> to increase code quality.
+          The task management was performed with <mark>Azure</mark> and <mark>Scrum</mark> as agile methodology. The app was separated into different frameworks that contained the different logics to improve compilation and testing times.
+
+          The developers were divided into 3 teams of 3 people; 2 teams from InnoCV and one from another company, who managed their own tasks and responsibilities. The PRs were reviewed among the different team members. Also in each team we had a QA to improve the quality of the product.
+
+      - layout: left
+        border: weak
+        title: Movilok
+        link: www.movilok.net
+        sub_title: Junior iOS Developer
+        caption: January 2016 - March 2019
+        quote: >
+          At Movilok I worked on the BBVA bank app for business users, BBVA NetCash. It was my first contact with an organized architecture and work methodology.
+        description: | # this will include new lines to allow paragraphs
+          Working at Movilok was a big change for me, it was the company where I became more professional. There I learned about apps architectures like <mark>VIPER</mark>, I learned Apple's new programming language, <mark>Swift</mark>; I learned about agile methodologies like <mark>Scrum</mark>, I learned to work with an important client like BBVA and to expose the new functionalities we had developed. 
+    
+      - layout: left
+        title: Trecone Solutions
+        link: www.trecone.com
+        sub_title: Junior iOS Developer
+        caption: October 2014 - December 2015
+        quote: >
+          Trecone was the company that gave me my first opportunity to work as an iOS developer. Here I Worked on two products: Treconite; an app for calls and data consumption control in an iPhone; and Promedio, an app for the Extremadura regional government.
+        description: | # this will include new lines to allow paragraphs
+          We were a small team without experience, without a working methodology, without testing and without a defined architecture in the apps. These apps were made in <mark>Objective-C</mark>
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        title: Polytechnic University of Valencia (UPV)
+        caption: 2015 - 2017
+        sub_title: Master in mobile applications development
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          In this master I gained knowledge about the entire field of application development for mobile devices.  Among the subjects were iOS development, Android development, Android for wereables, Android auto, Unity 3D, Webapps, PWA, WindowsPhone and business models in applications.
+  
+      - layout: left
+        title: University of Extremadura (UEX)
+        caption: 2005 - 2014
+        sub_title: Technical Engineering in Computer Systems
+        description: | # this will include new lines to allow paragraphs
+          In this career I learned all the basic and broad knowledge of technical informatics. What I value most from this training was the knowledge about programming, which has laid the foundation for my professional career.
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
-
-  - title: A Little More About Me
+  - title: When I'm Not Programming
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+        I'm always very interested in technology, I like to read articles and learn about anything, AI, architectures, new devices, new methodologies, new apps, business...
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+        In my day to day, after work I like to do sports like crossfit, biking, climbing, running... 
+
+        Of course I also like to go to eat in new places and discover food from other countries. I also like to cook and I have mastered rice dishes and Neapolitan pizzas; my cheesecakes are AWESOME!
 
 # Footer
-footer_show_references: true
+footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings
