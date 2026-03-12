@@ -8,8 +8,8 @@ version: 2
 # Personal info
 name: Francisco Cantos
 title: Senior iOS Developer
-email: FranciscoCantosGutierrez@Gmail.com
-website: FranciscoCantos.Github.io
+email: franciscocantosgutierrez@gmail.com
+website: franciscocantos.github.io
 
 # Dark Mode (true/false/never)
 darkmode: true
@@ -22,33 +22,63 @@ linkedin_username: fcocantos
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, I'm Francisco Cantos and also a senior iOS applications developer. I have worked at a number of companies gaining teamwork and multiple skills.
+  Senior iOS Developer with 10+ years of experience building, evolving and maintaining native iOS applications in retail, telecom and digital product environments. Strong background in <mark>Swift</mark>, <mark>SwiftUI</mark>, <mark>UIKit</mark> and scalable mobile architectures, with hands-on experience in Clean Architecture, MVVM, VIPER and Redux-based flows.
 
-  I am a very restless person who always likes to learn new things. When I master a subject I like to share it with anyone who wants to learn. At work I am always willing to help my colleagues in everything they need.
-
-  I am passionate about technological advances and I like to try everything. I get informed about these advances in several RSS, social networks and newsletters.
+  Focused on performance, maintainability, testing, accessibility and product quality, with proven experience collaborating closely with product, design and QA teams in production apps.
 content:
+  - title: Core Skills
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      **Languages & Frameworks:** <mark>Swift</mark>, <mark>SwiftUI</mark>, <mark>UIKit</mark>, <mark>Objective-C</mark>, <mark>Combine</mark>, <mark>RxSwift</mark>
+
+      **Architecture:** <mark>MVVM</mark>, <mark>Clean Architecture</mark>, <mark>VIPER</mark>, <mark>Redux</mark>, <mark>ReSwift</mark>, Modular Architecture
+
+      **Concurrency:** Swift Concurrency, <mark>async/await</mark>, Tasks, actors, Sendable-aware development
+
+      **Networking & Data:** REST APIs, <mark>URLSession</mark>, <mark>Core Data</mark>, <mark>UserDefaults</mark>
+
+      **Testing & Quality:** <mark>XCTest</mark>, Unit Testing, Integration Testing, UI Testing, <mark>SwiftLint</mark>, <mark>SonarQube</mark>, <mark>Kiuwan</mark>
+
+      **CI/CD & Monitoring:** <mark>Jenkins</mark>, <mark>Xcode Cloud</mark>, <mark>Firebase Analytics</mark>, <mark>Firebase Crashlytics</mark>
+
+      **Tools:** <mark>GitHub</mark>, <mark>Jira</mark>, <mark>Azure DevOps</mark>, <mark>BrowserStack</mark>, <mark>Figma</mark>, <mark>Lokalise</mark>
+
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         border: weak
+        title: Mango
+        link: www.mango.com
+        sub_title: Senior iOS Developer
+        caption: May 2024 - Present
+        quote: >
+          Mango is a global fashion retail company with one of the most used shopping apps in Europe.
+        description: | # this will include new lines to allow paragraphs
+          Develop and optimize user-facing features for a large-scale international retail app, with special focus on product listing and editorial experiences.
+
+          Use <mark>Swift</mark>, <mark>SwiftUI</mark>, <mark>Combine</mark> and <mark>Core Data</mark> in a Clean <mark>MVVM</mark> architecture to build maintainable, scalable and testable solutions.
+
+          Improve user flows, app performance and accessibility while keeping a strong product-quality mindset. Work with unit tests, integration tests and UI tests to increase release confidence and reduce regressions.
+
+          Collaborate with product, design and QA teams and contribute to CI/CD workflows with <mark>Jenkins</mark>, <mark>BrowserStack</mark>, <mark>Figma</mark>, <mark>Firebase</mark> and <mark>Crashlytics</mark>.
+
+      - layout: left
+        border: weak
         title: Storybeat
         link: www.storybeat.com
         sub_title: Senior iOS Developer
-        caption: February 2022 - Present
+        caption: February 2022 - March 2024
         quote: >
           Storybeat is a content editing app to share on social networks oriented to influencers.
         description: | # this will include new lines to allow paragraphs
-          I started my path in Storybeat because I was looking for a bigger challenge than the ones already had and the experience has been exciting.
+          Built and maintained iOS features for a consumer product app using <mark>Swift</mark> and Redux-based architecture with <mark>ReSwift</mark>.
 
-          During this time I have performed tasks such as analysis and development of new features with the product team, testing with <mark>XCTests</mark>, redesign of screens, queries to <mark>REST-APIs</mark> using <mark>URLSession</mark>, manages purchases and subscriptions in App-Store, translations with <mark>Lokalise</mark>, uploads to the App-Store, make error analysis with <mark>Crashlitics</mark>, check analytics with <mark>Firebase</mark>, <mark>Xcode-Cloud</mark> implementation, use the <mark>AppleMusic</mark> API, deliver remote and local notifications, use of UserDefaults, audio and video editing with <mark>AVFundation</mark>, ads integration with Google <mark>AdMob</mark>... 
-          All this using a Redux architecture (Unidirectional Data Flow) with the <mark>ReSwift</mark> framework. We also use tools like <mark>Swiftlint</mark>, <mark>Periphery</mark>, <mark>Cocoapods</mark>, <mark>SPM</mark>, <mark>Figma</mark>, <mark>Purchasely</mark>, <mark>Firebase</mark>, <mark>Google-SignIn</mark>, <mark>Kingfisher</mark>, <mark>Lottie</mark>, <mark>SwiftGen</mark>, <mark>Lottie</mark>...
+          Worked on feature analysis, new functionality development, screen redesigns and release preparation in collaboration with the product team. Integrated <mark>Apple Music</mark> API, local and remote notifications, App Store purchases and subscriptions, <mark>Lokalise</mark>, Google <mark>AdMob</mark>, <mark>Firebase Analytics</mark> and <mark>Crashlytics</mark>.
 
-          The atmosphere with my teammates is great and this is very important when you are remote. We have our own Kanban and we get along great with <mark>Jira</mark> and <mark>Github</mark>. The review of PRs was extensive among teammates of the same platform and this greatly improved the quality of the code and avoided errors. Also in each release we have to do like Quality Assurance to check in our own hands the quality of the development.
-          Every month we took turns to be in charge of online teambuildings and the organization of retrospective meetings to know the status of the team members and introduce improvements according to the whole team. 
-        
-          We also had the opportunity to contribute to the Roadmap of the app.
+          Used <mark>URLSession</mark>, <mark>UserDefaults</mark>, <mark>AVFoundation</mark> and <mark>Xcode Cloud</mark> as part of day-to-day development and delivery workflows. Supported app quality through testing, production issue analysis and continuous improvement of stability and user experience.
+
+          We use tools like <mark>SwiftLint</mark>, <mark>Periphery</mark>, <mark>Cocoapods</mark>, <mark>SPM</mark>, <mark>Figma</mark>, <mark>Purchasely</mark>, <mark>Google-SignIn</mark>, <mark>Kingfisher</mark>, <mark>Lottie</mark>, <mark>SwiftGen</mark>. Task management with <mark>Jira</mark> and <mark>Github</mark>, extensive PR reviews among teammates.
 
       - layout: left
         border: weak
@@ -59,47 +89,51 @@ content:
         quote: >
           MyVodafone app is designed for Vodafone customers to manage their services more easily and conveniently through their mobile devices.
         description: | # this will include new lines to allow paragraphs
-          During this stage I was in 2 different companies; in my first stage I was hired through the company Alten and after 9 months I had a change of supplier to Qaracter.
+          Worked in the transactional team developing features that simplified customer discount acquisition flows. It was my first contact with 100% remote work.
 
-          At Vodafone I started right at the beginning of the pandemic; it was my first contact with 100% remote work. There I was part of the Transactional team where we developed different functionalities to facilitate the process of acquiring discounts by the customer.
+          Developed native iOS functionality in <mark>Swift</mark> with <mark>MVP</mark> architecture and strong code-quality practices. Used <mark>XCTest</mark>, <mark>SwiftLint</mark>, <mark>Kiuwan</mark> and <mark>SonarQube</mark> to improve reliability, consistency and maintainability.
 
-          The app is developed in Swift code, with an MVP architecture. For error control and code quality control, unit tests are performed with <mark>XCTest</mark>. We use tools such as <mark>SwiftLint</mark>, <mark>Kiuwan</mark> and <mark>SonarQube</mark> to increase code quality.
-          Task management was done with Jira using Scrum methodology in 3-week sprints. Between the different teams we reviewed each other's PRs to test that everything was OK.
+          Collaborated in a production environment with multidisciplinary teams focused on customer-facing features, using <mark>Scrum</mark> methodology in 3-week sprints.
+
+          During this stage I was hired through Alten and after 9 months had a supplier change to Qaracter.
 
       - layout: left
         border: weak
         title: INNOCV Solutions
         link: www.innocv.com
-        sub_title: Mid iOS Developer
-        caption: April 2019 - February 2022
+        sub_title: iOS Developer
+        caption: April 2019 - March 2020
         quote: >
           At INNOCV I had the opportunity to participate in the development of the EVOBank app for its users where they can manage the services offered by the bank.
         description: | # this will include new lines to allow paragraphs
-          The development of this app I used reactive programming using the <mark>RXSwift</mark> framework and a <mark>VIPER</mark> architecture. Unit tests were performed with <mark>XCTEst</mark> and also we used <mark>SonarQube</mark> and <mark>Swiftlint</mark> to increase code quality.
-          The task management was performed with <mark>Azure</mark> and <mark>Scrum</mark> as agile methodology. The app was separated into different frameworks that contained the different logics to improve compilation and testing times.
+          Developed iOS features using <mark>Swift</mark>, <mark>RxSwift</mark> and <mark>VIPER</mark> architecture in enterprise projects. Worked in a modular codebase split into frameworks to improve compilation times, testability and separation of concerns.
 
-          The developers were divided into 3 teams of 3 people; 2 teams from InnoCV and one from another company, who managed their own tasks and responsibilities. The PRs were reviewed among the different team members. Also in each team we had a QA to improve the quality of the product.
+          Used <mark>XCTest</mark>, <mark>SwiftLint</mark> and <mark>SonarQube</mark> and worked with <mark>Azure DevOps</mark> under <mark>Scrum</mark> methodology.
+
+          The developers were divided into 3 teams; PRs were reviewed among the different team members and each team had a QA to improve the quality of the product.
 
       - layout: left
         border: weak
         title: Movilok
         link: www.movilok.net
-        sub_title: Junior iOS Developer
+        sub_title: iOS Developer
         caption: January 2016 - March 2019
         quote: >
           At Movilok I worked on the BBVA bank app for business users, BBVA NetCash. It was my first contact with an organized architecture and work methodology.
         description: | # this will include new lines to allow paragraphs
-          Working at Movilok was a big change for me, it was the company where I became more professional. There I learned about apps architectures like <mark>VIPER</mark>, I learned Apple's new programming language, <mark>Swift</mark>; I learned about agile methodologies like <mark>Scrum</mark>, I learned to work with an important client like BBVA and to expose the new functionalities we had developed. 
-    
+          Grew professionally working with <mark>Swift</mark> and iOS application architectures such as <mark>VIPER</mark>. Worked with Agile practices including <mark>Scrum</mark> and participated in feature delivery for a major client such as BBVA.
+
+          Collaborated in analysis, development and presentation of new mobile functionalities.
+
       - layout: left
         title: Trecone Solutions
         link: www.trecone.com
         sub_title: Junior iOS Developer
         caption: October 2014 - December 2015
         quote: >
-          Trecone was the company that gave me my first opportunity to work as an iOS developer. Here I Worked on two products: Treconite; an app for calls and data consumption control in an iPhone; and Promedio, an app for the Extremadura regional government.
+          Trecone was the company that gave me my first opportunity to work as an iOS developer. Here I worked on two products: Treconite and Promedio, an app for the Extremadura regional government.
         description: | # this will include new lines to allow paragraphs
-          We were a small team without experience, without a working methodology, without testing and without a defined architecture in the apps. These apps were made in <mark>Objective-C</mark>
+          Started professional iOS development in a small team environment working mainly with <mark>Objective-C</mark>. Contributed in projects without an established architecture or testing culture, which strengthened adaptability and ownership.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -107,16 +141,23 @@ content:
       - layout: left
         title: Polytechnic University of Valencia (UPV)
         caption: 2015 - 2017
-        sub_title: Master in mobile applications development
+        sub_title: Master in Multiplatform Mobile Applications Development
         description: | # this will include new lines to allow paragraphs
-          In this master I gained knowledge about the entire field of application development for mobile devices.  Among the subjects were iOS development, Android development, Android for wereables, Android auto, Unity 3D, Webapps, PWA, WindowsPhone and business models in applications.
+          Gained knowledge about the entire field of application development for mobile devices. Subjects included iOS development, Android development, Android for wearables, Android Auto, Unity 3D, Webapps, PWA, Windows Phone and business models in applications.
   
       - layout: left
         title: University of Extremadura (UEX)
         caption: 2005 - 2014
         sub_title: Technical Engineering in Computer Systems
         description: | # this will include new lines to allow paragraphs
-          In this career I learned all the basic and broad knowledge of technical informatics. What I value most from this training was the knowledge about programming, which has laid the foundation for my professional career.
+          Broad knowledge of technical informatics with a strong foundation in programming that has been the base for my professional career.
+
+  - title: Languages
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      **Spanish:** Native
+
+      **English:** Professional working proficiency
 
   - title: When I'm Not Programming
     layout: text
